@@ -1,16 +1,87 @@
-# React + Vite
+🚀 Souj Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with React and Vite to showcase projects, skills, certifications, and professional experience.
 
-Currently, two official plugins are available:
+📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio website highlights:
 
-## React Compiler
+👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 Skills
 
-## Expanding the ESLint configuration
+💼 Projects
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🏆 Certifications
+
+📄 Resume
+
+📬 Contact Information
+
+It is designed to be fast, responsive, and visually engaging.
+
+🛠 Tech Stack
+
+React – Frontend UI library
+
+Vite – Build tool for fast development
+
+JavaScript (ES6+)
+
+CSS3
+
+Responsive Design
+
+📂 Project Structure
+souj-portfolio/
+│
+├── public/                # Static assets (resume, images)
+├── src/
+│   ├── assets/            # Project and certificate images
+│   ├── components/        # Reusable components
+│   ├── data/              # Portfolio content data
+│   ├── pages/             # Page components
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── vite.config.js
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/your-username/souj-portfolio.git
+cd souj-portfolio
+2️⃣ Install dependencies
+npm install
+3️⃣ Run the development server
+npm run dev
+
+The app will run locally at:
+
+http://localhost:5173
+🏗 Build for Production
+
+To create an optimized production build:
+
+npm run build
+
+To preview the production build:
+
+npm run preview
+🎨 Features
+
+Fully responsive design
+
+Clean UI with smooth layout
+
+Modular component structure
+
+Organized content management via content.js
+
+Resume download option
+
+Project and certificate showcase
+
+📜 License
+
+This project is open-source and free to use for personal portfolio purposes.
